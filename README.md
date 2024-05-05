@@ -28,7 +28,7 @@ If you are worried about malicious code, the script is pretty small you can easi
 ## Dependencies
 
 - Linux (tested under Ubuntu 12.04)
-- Python (tested under 2.7.3)
+- Python (tested under 3.12.2)
 - SoX (in debian based systems install by typing "sudo apt-get install sox");
 
 ## Future

@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 2 -*-
 # Author: Fábio André Damas <skkeeper at gmail dot com>
 
@@ -14,8 +14,8 @@ from sys import exit
 
 # Handle CTRL+C
 def signal_handler(signal, frame):
-    print '\033[1;32mCTRL + C Detected. Exiting ...'
-    print 'Ignore any errors after this message.\033[1;m'
+    print('\033[1;32mCTRL + C Detected. Exiting ...')
+    print('Ignore any errors after this message.\033[1;m')
     exit(0)
 signal(SIGINT, signal_handler)
 
